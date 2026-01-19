@@ -9,7 +9,6 @@
     font-optical-sizing: auto;
 }
 
-
 /* Header */
 
 .bg{
@@ -188,19 +187,6 @@ nav .menu a{
     line-height: 25px;
  }
 
- /*#Podcast .box-section{
-    margin-top: 44px;
-    display: flex;
-    justify-content: center;
-    gap: 24px;
- }
- #Podcast .box{
-    text-align: center;
-    padding: 24px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    border: none;
-    border-radius: 8px;
- }*/
  .box-section {
     margin-top: 44px;
     padding: 40px 40px;
@@ -224,61 +210,65 @@ nav .menu a{
     line-height: 20px;
     opacity: 80%;
 }
- 
 
-/*media*/
-@media (max-width: 992px) {
-    .nav {
-        flex-direction: column;
-        height: auto;
-        gap: 20px;
-        padding: 20px;
-    }
 
-    #first {
-        padding: 60px 20px;
-    }
-
-    #first .para h2 {
-        font-size: 40px; /* Smaller title for mobile */
-    }
-
-    .icon-container {
-        width: 250px; /* Smaller mic circle */
-        height: 250px;
-    }
-
-    .mic-icon {
-        width: 100px;
-        height: auto;
-    }
-
-    .box-section {
-        flex-direction: column; /* Stack the 150K+, 200+ boxes vertically */
-        gap: 40px;
-    }
+#TechWave{
+    background-color: #230E3D;
+    padding: 120px 200px;
 }
 
-/* 3. Small Mobile View (Screens smaller than 600px) */
-@media (max-width: 600px) {
-    .menu {
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-    }
+.Grid-section h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.icon-1{
+    grid-area: item-1;
+}
+.icon-2{
+    grid-area: item-2;
+}
+.icon-3{
+    grid-area: item-3;
+}
+.icon-4{
+    grid-area: item-4;
+}
+.icon-5{
+    grid-area: item-5;
+}
 
-    .button {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-    }
+.Grid-box{
+    display: grid;
+    grid-template-areas: 
+            'item-1 item-2 item-2'
+            'item-1 item-3 item-3'
+            'item-4 item-4 item-5';
+    gap: 30px;
+}
 
-    #first .para h2 {
-        font-size: 32px;
-    }
-    
-    #Podcast {
-        padding: 60px 20px;
-    }
+.icon-box{
+    background-color: rgba(53, 17, 101, 0.4);
+    text-align: left;
+    padding: 40px;
+    border-radius: 40px;
+    align-content: center;
+}
+
+.icon-box h3{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 16px 0;
+}
+.icon-box p{
+    font-size: 16px;
+    color: #FFFFFF;
+    opacity: 60%;
+    line-height: 24px;
+}
+.box-1 img{
+    margin-top: 70px;
 }
