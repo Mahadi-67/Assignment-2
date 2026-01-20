@@ -9,11 +9,13 @@
     font-optical-sizing: auto;
 }
 
+@media screen and (min-width: 992px){
+    
 /* Header */
 
 .bg{
     background-color: #1A0B2E;
-    border-bottom: 1px solid purple;
+    border-bottom: 2px solid rgb(83, 36, 83);
   
 }
 
@@ -159,6 +161,8 @@ nav .menu a{
     background: transparent;
  }
 
+ /* Podcast Section */
+
  #Podcast{
     background: #1A0B2E;
     padding: 200px 120px 200px 120px;
@@ -211,6 +215,7 @@ nav .menu a{
     opacity: 80%;
 }
 
+/* TechWave Section */
 
 #TechWave{
     background-color: #230E3D;
@@ -269,6 +274,125 @@ nav .menu a{
     opacity: 60%;
     line-height: 24px;
 }
-.box-1 img{
-    margin-top: 70px;
+
+/* Feature Section */
+
+.Features{
+    background-color: #1A0B2E;
+    padding: 120px 200px;
+}
+.Heading{
+    margin: 0 auto;
+    text-align: center;
+}
+.Heading h2{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.Video-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.feature-video{
+    border-radius: 24px;
+    overflow: hidden;
+    text-align: left;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.Description{
+    padding: 24px;
+    background-color: #250D44;
+}
+
+.Description h3{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.Description p{
+    color: #FFFFFF;
+    font-size: 16px;
+    opacity: 60%;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
+.Description .time{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    gap: 6px;
+}
+.Description .time h6{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #00FF88;
+}
+
+/* Host */
+.Host{
+    padding-top: 120px;
+}
+.Host H2{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.Host-Img{
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    padding: 40px;
+}
+.Host-Info h3{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: left;
+    color: #FFFFFF;
+}
+.Host-Info p{
+    padding: 16px 0px;
+    font-size: 16px;
+    opacity: 60%;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.Host-Social{
+    display: flex;
+    justify-content: left;
+    gap: 18px;
+}
+
+.Social-Link{
+    border: 1px solid #533C72;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
 }
