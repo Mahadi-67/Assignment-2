@@ -395,4 +395,42 @@ nav .menu a{
     cursor: pointer;
 }
 
+/* Footer */
+.Footer{
+    background: url(./assets/footer-bg.png);
+    padding: 120px 200px;
+    text-align: center;
+    background-repeat: repeat;
+    background-size: cover;
+   padding-bottom: 60px;
+   padding-top: 90px;
+}
+
+.Footer h1{
+    font-size: 60px;
+}
+
+.Footer-link{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 32px 32px;
+    
+}
+.Footer-png{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #FFFFFF;
+}
+.Footer-png h5{
+    opacity: 60%;
+}
+
+.Footer p{
+    font-size: 16px;
+    opacity: 60%;
+    color: #FFFFFF;
+}
+
 }
