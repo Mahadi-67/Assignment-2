@@ -8,8 +8,6 @@
     font-family: "inter", sans-serif;
     font-optical-sizing: auto;
 }
-
-@media (min-width: 992px){
     
 /* Header */
 
@@ -460,7 +458,7 @@ nav .menu a{
     color: #FFFFFF;
 }
 
-}
+
 
 
 @media (max-width: 576px) {
