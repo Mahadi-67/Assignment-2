@@ -9,7 +9,7 @@
     font-optical-sizing: auto;
 }
 
-@media screen and (min-width: 992px){
+@media (min-width: 992px){
     
 /* Header */
 
@@ -76,6 +76,22 @@ nav .menu a{
     color: #FFFFFF;
     cursor: pointer;
     gap: 4px;
+    
+}
+.btn:hover {
+    filter: brightness(1.2);
+    transform: scale(1.08);
+}
+.Hamburger{
+        width: 28px;
+        height: 28px;
+        cursor: pointer;
+        display: none;
+}
+
+.Hamburger:hover {
+    filter: brightness(1.2);
+    transform: scale(1.08);
 }
 
 #first{
@@ -160,6 +176,11 @@ nav .menu a{
     cursor: pointer;
     background: transparent;
  }
+
+ .btn2:hover {
+    filter: brightness(1.2);
+    transform: scale(1.08);
+}
 
  /* Podcast Section */
 
@@ -345,6 +366,7 @@ nav .menu a{
 .Host{
     padding-top: 120px;
 }
+
 .Host H2{
     color: #FFFFFF;
     font-size: 48px;
@@ -395,6 +417,11 @@ nav .menu a{
     cursor: pointer;
 }
 
+.Social-Link:hover {
+    filter: brightness(1.2);
+    transform: scale(1.08);
+}
+
 /* Footer */
 .Footer{
     background: url(./assets/footer-bg.png);
@@ -434,3 +461,142 @@ nav .menu a{
 }
 
 }
+
+
+@media (max-width: 576px) {
+
+    .nav {
+        justify-content: space-between;
+        padding: 16px 20px;
+      }
+
+      nav .menu{
+        display: none;
+      }
+
+    .logo h1 {
+        font-size: 24px;
+      }
+
+    .menu {
+      display: none;
+    }
+  
+    nav .btn {
+        display: none;
+      }
+
+      .Hamburger {
+        display: block;
+      }
+  
+   
+    #first {
+      padding: 60px 20px;
+      background-position: center;
+    }
+  
+    .icon-container {
+      width: 220px;
+      height: 220px;
+      padding: 40px;
+    }
+  
+    .mic-icon {
+      width: 100px;
+      height: 140px;
+    }
+  
+    .badge {
+      font-size: 14px;
+      padding: 6px 12px;
+    }
+  
+    #first .para h2 {
+      font-size: 36px;
+    }
+  
+    #first .para p {
+      font-size: 14px;
+    }
+  
+    .button {
+        display: flex;
+        flex-direction: row;   
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap; 
+    }
+  
+  
+    #Podcast {
+      padding: 80px 20px;
+    }
+  
+    #Podcast .About h2 {
+      font-size: 32px;
+    }
+  
+    #Podcast .About p {
+      font-size: 14px;
+    }
+  
+    .box-section {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+      padding: 20px 0;
+    }
+  
+
+    #TechWave {
+      padding: 80px 20px;
+    }
+  
+    .Grid-section h2 {
+      font-size: 32px;
+    }
+  
+    .Grid-box {
+      grid-template-areas:
+        "item-1"
+        "item-2"
+        "item-3"
+        "item-4"
+        "item-5";
+    }
+  
+ 
+    .Features {
+      padding: 80px 20px;
+    }
+  
+    .Video-container {
+      flex-direction: column;
+    }
+  
+
+    .Host-Img {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .Host-Social {
+      justify-content: center;
+    }
+  
+ 
+    .Footer {
+      padding: 80px 20px;
+    }
+  
+    .Footer-link {
+        display: grid;
+        grid-template-columns: repeat(2, auto);  
+        justify-content: center;                
+        gap: 20px 40px;                         
+        padding: 32px 0;                
+    }    
+  }
+  
